@@ -61,12 +61,12 @@ body {
     max-width: 100vw;
     height: max-content;
     background: var(--clr-white-secn);
-    cursor: url(/cursor/arrow.png) 0 0, auto;
+    cursor: url("../cursor/arrow.png") 0 0, auto;
 }
 
 a:hover,
 button:hover {
-    cursor: url(/cursor/link.png) 0 0, pointer;
+    cursor: url("../cursor/link.png") 0 0, pointer;
 }
 
 /* Selection */

@@ -63,12 +63,12 @@ body {
     max-width: 100vw;
     height: max-content;
     background: var(--clr-white-secn);
-    cursor: url(/cursor/arrow.png) 0 0, auto;
+    cursor: url("../cursor/arrow.png") 0 0, auto;
 }
 
 a:hover,
 button:hover {
-    cursor: url(/cursor/link.png) 0 0, pointer;
+    cursor: url("../cursor/link.png") 0 0, pointer;
 }
 
 .txt-sect-title {
@@ -1285,7 +1285,7 @@ main {
     fill: #dcdcdc;
     stroke: var(--clr-white-prim);
     stroke-width: 1;
-    cursor: url(/cursor/link.png) 0 0, pointer;
+    cursor: url("../cursor/link.png") 0 0, pointer;
     transition: 0.4s;
 }
 
@@ -1537,14 +1537,14 @@ main {
     height: 10px;
     border-radius: 10px;
     background: var(--grad-clr-horizontal);
-    cursor: url(/cursor/link.png) 0 0, pointer !important;
+    cursor: url("../cursor/link.png") 0 0, pointer !important;
     opacity: 0.1;
 }
 
 .peta-pagination .swiper-pagination-bullet-active {
     width: 30px;
     background: var(--grad-clr-horizontal);
-    cursor: url(/cursor/arrow.png) 0 0, auto !important;
+    cursor: url("../cursor/arrow.png") 0 0, auto !important;
     opacity: 1;
 }
 
@@ -1839,7 +1839,7 @@ main {
     border: none;
     border-radius: 50%;
     background: var(--clr-white-prim);
-    cursor: url(/cursor/link.png) 0 0, pointer;
+    cursor: url("../cursor/link.png") 0 0, pointer;
 }
 
 .suara-sect > div .bottom-content .suara-swiper .button-suara button:hover {
@@ -1879,7 +1879,7 @@ main {
     background: var(--clr-white-prim) !important;
     opacity: 0.2 !important;
     border-radius: 10px !important;
-    cursor: url(/cursor/link.png) 0 0, pointer !important;
+    cursor: url("../cursor/link.png") 0 0, pointer !important;
 }
 
 .suara-sect > div .bottom-content .suara-swiper .swiper-pagination-bullet-active {
@@ -1985,7 +1985,7 @@ main {
     font-size: 20px;
     font-weight: var(--fw-semi-bold);
     color: var(--clr-dark-green);
-    cursor: url(/cursor/link.png) 0 0, pointer;
+    cursor: url("../cursor/link.png") 0 0, pointer;
     padding: 10px;
     display: flex;
     align-items: center;
